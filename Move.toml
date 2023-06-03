@@ -1,0 +1,15 @@
+[package]
+name = 'meme'
+version = '1.0.0'
+
+[dependencies.AptosFramework]
+git = 'https://github.com/aptos-labs/aptos-core.git'
+rev = 'main'
+subdir = 'aptos-move/framework/aptos-framework'
+
+[dependencies.Liquidswapv05]
+git = 'https://github.com/pontem-network/liquidswap_v05.git'
+rev = 'v05-main'
+
+[addresses]
+meme = '0x42f2d51f5b0910bad5a81fa19a53918d0482034702fb618c4bfe56b8b22b5a91'
